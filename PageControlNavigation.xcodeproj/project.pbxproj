@@ -14,6 +14,9 @@
 		33F210021B8DBB3900DCF26C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F210011B8DBB3900DCF26C /* Images.xcassets */; };
 		33F210051B8DBB3900DCF26C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F210031B8DBB3900DCF26C /* LaunchScreen.xib */; };
 		33F210111B8DBB3900DCF26C /* PageControlNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F210101B8DBB3900DCF26C /* PageControlNavigationTests.m */; };
+		33F2101E1B8DC65300DCF26C /* 保罗克利-肖像.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F2101B1B8DC65300DCF26C /* 保罗克利-肖像.png */; };
+		33F2101F1B8DC65300DCF26C /* 罗丹-思想者.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F2101C1B8DC65300DCF26C /* 罗丹-思想者.png */; };
+		33F210201B8DC65300DCF26C /* 达芬奇-蒙娜丽莎.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F2101D1B8DC65300DCF26C /* 达芬奇-蒙娜丽莎.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		33F2100A1B8DBB3900DCF26C /* PageControlNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageControlNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F2100F1B8DBB3900DCF26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33F210101B8DBB3900DCF26C /* PageControlNavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageControlNavigationTests.m; sourceTree = "<group>"; };
+		33F2101B1B8DC65300DCF26C /* 保罗克利-肖像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保罗克利-肖像.png"; sourceTree = "<group>"; };
+		33F2101C1B8DC65300DCF26C /* 罗丹-思想者.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "罗丹-思想者.png"; sourceTree = "<group>"; };
+		33F2101D1B8DC65300DCF26C /* 达芬奇-蒙娜丽莎.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "达芬奇-蒙娜丽莎.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,7 @@
 				33F20FFB1B8DBB3900DCF26C /* ViewController.h */,
 				33F20FFC1B8DBB3900DCF26C /* ViewController.m */,
 				33F20FFE1B8DBB3900DCF26C /* Main.storyboard */,
+				33F2101A1B8DC65300DCF26C /* images */,
 				33F210011B8DBB3900DCF26C /* Images.xcassets */,
 				33F210031B8DBB3900DCF26C /* LaunchScreen.xib */,
 				33F20FF41B8DBB3900DCF26C /* Supporting Files */,
@@ -117,6 +124,16 @@
 				33F2100F1B8DBB3900DCF26C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33F2101A1B8DC65300DCF26C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				33F2101B1B8DC65300DCF26C /* 保罗克利-肖像.png */,
+				33F2101C1B8DC65300DCF26C /* 罗丹-思想者.png */,
+				33F2101D1B8DC65300DCF26C /* 达芬奇-蒙娜丽莎.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +216,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F2101F1B8DC65300DCF26C /* 罗丹-思想者.png in Resources */,
+				33F2101E1B8DC65300DCF26C /* 保罗克利-肖像.png in Resources */,
 				33F210001B8DBB3900DCF26C /* Main.storyboard in Resources */,
 				33F210051B8DBB3900DCF26C /* LaunchScreen.xib in Resources */,
 				33F210021B8DBB3900DCF26C /* Images.xcassets in Resources */,
+				33F210201B8DC65300DCF26C /* 达芬奇-蒙娜丽莎.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +372,7 @@
 				INFOPLIST_FILE = PageControlNavigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -362,6 +383,7 @@
 				INFOPLIST_FILE = PageControlNavigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
